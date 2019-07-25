@@ -6,7 +6,7 @@ import Img from '../components/Img';
 export default function HomePage({ data }) {
   return (
     <Layout>
-      <p>I'm the home page!</p>
+      <p>I'm the potato page!</p>
       <p>{data.description}</p>
       <Img src="dog.jpg" alt="Cute Pup" />
     </Layout>
